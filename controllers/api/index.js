@@ -7,7 +7,7 @@ const userRoutes = require('./userRoutes');
 router.use('/blogs', blogRoutes);
 router.use('/comments', commentRoutes);
 router.use('/users', userRoutes);
-// route to update a blogpost *this is different but similar to line 7*
-// route to create a new blogpost
+// route to update a blog post *this is different but similar to line 7*
+// route to create a new blog post
 
 module.exports = router;

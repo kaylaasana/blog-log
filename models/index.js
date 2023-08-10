@@ -42,3 +42,4 @@ Comment.belongsTo(Blog, {
     // have foreign key for Blog Model
     // have foreign key for User Model
 
+module.exports = { User, Blog, Comment };

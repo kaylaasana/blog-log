@@ -1,4 +1,4 @@
-// render routes -- NOT creating anything **res.render** (findAll or findByPk)
+// render routes
 const router = require('express').Router();
 const apiRoutes = require('./api');
 const homepageRoutes = require('./homepage');
