@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const { User } = require('../../models/User');
-// /////// WHY IS USER BLUE ///////////////
+const { User } = require('../../models');
+
 // sign up route
 router.post('/', async (req, res) => {
     try {
